@@ -1,8 +1,8 @@
 # The URL the site will be built for
-base_url = "https://zola-even.netlify.com"
+base_url = "https://rudoblog.netlify.com"
 
 compile_sass = true
-title = "even theme"
+title = "Rudo's blog"
 description = ""
 highlight_code = true
 generate_feed = true
@@ -13,12 +13,14 @@ taxonomies = [
 ]
 
 [extra]
-author = "Vincent"
+author = "Rudo"
 even_menu = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/categories", name = "Categories"},
     {url = "$BASE_URL/tags", name = "Tags"},
     {url = "$BASE_URL/about", name = "About"},
 ]
+katex_enable = true
+katex_auto_render = true
 
-even_title = "Even"
+even_title = "Rudo's blog"
