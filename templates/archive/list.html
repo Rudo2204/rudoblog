@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+
+{% block content %}
+    <div class="taxonomies">
+        <div class="taxonomies__title">
+            {% set_global total_posts = 0 %}
+            {% set_global num_years = 0 %}
+            {% for archive in terms %}
+            {% set number_posts_this_year = archive.pages|length %}
+            {% set_global total_posts = total_posts + number_posts_this_year %}
+            {% set_global num_years = num_years + 1 %}
+            {% endfor %}
+            {{ total_posts }} posts total, written across {{ num_years }} different years
+        </div>
+        <div class="taxonomies__items">
+            {% for archive in terms | reverse %}
+                <a href="{{ archive.slug }}">
+                    {{ archive.name }} <span class="count">{{ archive.pages | length }}</span>
+                </a><br>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock content %}
