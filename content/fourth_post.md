@@ -1,9 +1,11 @@
 +++
 title = "Fourth post"
 date = 2018-07-04
+
 [taxonomies]
 categories = ["Even"]
 tags = ["placeholder posts"]
+archive = ["2018"]
 +++
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
