@@ -4,7 +4,7 @@ path = "about"
 template = "about.html"
 +++
 
-This site provides a demo for the Even theme for the 
+This site provides a demo for the Even theme for the
 [Gutenberg](https://www.getgutenberg.io/) static site generator.  Even was
 designed by [Vincent Prouillet](https://vincent.is/) and was based on the
 Even Hugo theme by olOwOlo.  This demo site was built by
