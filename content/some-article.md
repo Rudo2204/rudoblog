@@ -66,4 +66,4 @@ fn main() {
 
 ## An iframe
 
-{{ youtube(id="dQw4w9WgXcQ") }}
+{{ youtube(id="dQw4w9WgXcQ", class="youtube-responsive") }}
