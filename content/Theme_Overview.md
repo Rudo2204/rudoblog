@@ -4,7 +4,7 @@ date = 2020-07-19
 [taxonomies]
 categories = ["Real Content"]
 tags = ["placeholder posts"]
-archive = ["2020"]
+archive = ["2020-07"]
 
 +++
 This site provides a demo for the Even theme for the 

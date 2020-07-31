@@ -5,7 +5,7 @@ date = 2017-09-24
 [taxonomies]
 categories = ["Hello world"]
 tags = ["tag1"]
-archive = ["2017"]
+archive = ["2017-09"]
 +++
 
 Testing every `elements` you can find in [CommonMark](http://commonmark.org).

@@ -8,7 +8,7 @@ insert_anchor_links = "right"
 [taxonomies]
 categories = ["Real Content"]
 tags = ["tag1"]
-archive = ["2018"]
+archive = ["2018-07"]
 +++
 
 Testing every `elements` you can find in [CommonMark](http://commonmark.org).
